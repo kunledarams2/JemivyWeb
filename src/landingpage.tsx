@@ -96,238 +96,216 @@ const LandingPage: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className={styles.frameContainer}>
-        <Element name="OurService">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-            whileHover={{ scale: 1.05 }}
-            style={
-              {
-                // height: "200px",
-                //   backgroundColor: "lightblue",
-                //   display: "flex",
-                // justifyContent: "center",
-                // alignItems: "center",
-              }
-            }
-          >
-            <div className={styles.frameContainer}>
-              <div className={styles.ourServicesGroup}>
-                <div className={styles.ourServices1}>OUR SERVICES</div>
-                <div className={styles.comprehensiveSolutionsTailor}>
-                  Comprehensive Solutions Tailored to Your Needs
-                </div>
-              </div>
-              <div className={styles.content}>
-                <div className={styles.card}>
-                  <div className={styles.icon}>
-                    <img
-                      className={styles.devicemobilecameraIcon}
-                      alt=""
-                      src="/DeviceMobileCamera.svg"
-                    />
-                  </div>
-                  <div className={styles.mobileAppDevelopment}>
-                    Mobile App Development
-                  </div>
-                  <div className={styles.reachYourAudience}>
-                    Reach your audience on the go with intuitive and
-                    high-performance mobile applications.
-                  </div>
-                </div>
-                <div className={styles.card}>
-                  <div className={styles.icon}>
-                    <img
-                      className={styles.devicemobilecameraIcon}
-                      alt=""
-                      src="/Desktop.svg"
-                    />
-                  </div>
-                  <div className={styles.mobileAppDevelopment}>
-                    Web App Development
-                  </div>
-                  <div className={styles.reachYourAudience}>
-                    Create responsive, secure, and feature-rich websites that
-                    provide an exceptional user experience.
-                  </div>
-                </div>
-                <div className={styles.card2}>
-                  <div className={styles.icon}>
-                    <img
-                      className={styles.devicemobilecameraIcon}
-                      alt=""
-                      src="/PenNib.svg"
-                    />
-                  </div>
-                  <div className={styles.mobileAppDevelopment}>
-                    UI/UX Design
-                  </div>
-                  <div className={styles.elevateUserExperiences}>
-                    Elevate user experiences with intuitive and visually
-                    appealing designs.
-                  </div>
-                </div>
-                <div className={styles.card}>
-                  <div className={styles.icon}>
-                    <img
-                      className={styles.devicemobilecameraIcon}
-                      alt=""
-                      src="/Gear.svg"
-                    />
-                  </div>
-                  <div className={styles.mobileAppDevelopment}>
-                    Software Management
-                  </div>
-                  <div className={styles.reachYourAudience}>
-                    Ensure your software remains up-to-date, secure, and
-                    performing optimally with our ongoing support services.
-                  </div>
-                </div>
-              </div>
 
+      <Element name="OurService">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          whileHover={{ scale: 1.05 }}
+          style={
+            {
+              // height: "200px",
+              //   backgroundColor: "lightblue",
+              //   display: "flex",
+              // justifyContent: "center",
+              // alignItems: "center",
+            }
+          }
+        ></motion.div>
+      </Element>
+
+      <div className={styles.frameContainer}>
+        <div className={styles.ourServicesGroup}>
+          <div className={styles.ourServices1}>OUR SERVICES</div>
+          <div className={styles.comprehensiveSolutionsTailor}>
+            Comprehensive Solutions Tailored to Your Needs
+          </div>
+        </div>
+        <div className={styles.content}>
+          <div className={styles.card}>
+            <div className={styles.icon}>
               <img
-                className={styles.vectorIcon}
+                className={styles.devicemobilecameraIcon}
                 alt=""
-                src="/arrow_connector.svg"
+                src="/DeviceMobileCamera.svg"
               />
             </div>
-          </motion.div>
-        </Element>
+            <div className={styles.mobileAppDevelopment}>
+              Mobile App Development
+            </div>
+            <div className={styles.reachYourAudience}>
+              Reach your audience on the go with intuitive and high-performance
+              mobile applications.
+            </div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.icon}>
+              <img
+                className={styles.devicemobilecameraIcon}
+                alt=""
+                src="/Desktop.svg"
+              />
+            </div>
+            <div className={styles.mobileAppDevelopment}>
+              Web App Development
+            </div>
+            <div className={styles.reachYourAudience}>
+              Create responsive, secure, and feature-rich websites that provide
+              an exceptional user experience.
+            </div>
+          </div>
+          <div className={styles.card2}>
+            <div className={styles.icon}>
+              <img
+                className={styles.devicemobilecameraIcon}
+                alt=""
+                src="/PenNib.svg"
+              />
+            </div>
+            <div className={styles.mobileAppDevelopment}>UI/UX Design</div>
+            <div className={styles.elevateUserExperiences}>
+              Elevate user experiences with intuitive and visually appealing
+              designs.
+            </div>
+          </div>
+          <div className={styles.card}>
+            <div className={styles.icon}>
+              <img
+                className={styles.devicemobilecameraIcon}
+                alt=""
+                src="/Gear.svg"
+              />
+            </div>
+            <div className={styles.mobileAppDevelopment}>
+              Software Management
+            </div>
+            <div className={styles.reachYourAudience}>
+              Ensure your software remains up-to-date, secure, and performing
+              optimally with our ongoing support services.
+            </div>
+          </div>
+        </div>
+
+        <img className={styles.vectorIcon} alt="" src="/arrow_connector.svg" />
       </div>
-      <div className={styles.frameDiv}>
-        <Element name="CaseStudies">
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-            whileHover={{ scale: 1.05 }}
-            style={
-              {
-                // height: "200px",
-                // backgroundColor: "lightblue",
-                //   display: "flex",
-                // justifyContent: "center",
-                // alignItems: "center",
-              }
+
+      <Element name="CaseStudies">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          whileHover={{ scale: 1.05 }}
+          style={
+            {
+              // height: "200px",
+              // backgroundColor: "lightblue",
+              //   display: "flex",
+              // justifyContent: "center",
+              // alignItems: "center",
             }
-          >
-            <div className={styles.frameDiv}>
-              <div className={styles.caseStudiesParent}>
-                <div className={styles.ourServices1}>CASE STUDIES</div>
-                <div className={styles.comprehensiveSolutionsTailor}>
-                  Explore What We have Done.
-                </div>
-              </div>
-              <div className={styles.content1}>
-                <div className={styles.card4}>
-                  <div className={styles.image}>
-                    <div className={styles.imageChild} />
-                    <div className={styles.macbookProTiltedScreenMock}>
-                      <img
-                        className={styles.shadowIcon}
-                        alt=""
-                        src="/shadow.svg"
-                      />
-                      <img className={styles.mainIcon} alt="" src="/main.svg" />
-                      <img
-                        className={styles.macbookProTiltedScreenMock1}
-                        alt=""
-                        src="/MacBooklabel.svg"
-                      />
-                    </div>
-                  </div>
-                  <div className={styles.content2}>
-                    <div className={styles.jemivyParent}>
-                      <div className={styles.faithSpecialist}>
-                        Faith Specialist
-                      </div>
-                      <div className={styles.chip}>
-                        <div className={styles.webApp}>Web App</div>
-                      </div>
-                    </div>
-                    <div className={styles.reachYourAudience}>
-                      We developed a web app and re-designed Faith Specialist
-                      website to help streamline operations and stay up to date
-                      with patients data.
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.card4}>
-                  <div className={styles.content2}>
-                    <div className={styles.jemivyParent}>
-                      <div className={styles.faithSpecialist}>Xwift</div>
-                      <div className={styles.chip}>
-                        <div className={styles.webApp}>Mobile App</div>
-                      </div>
-                    </div>
-                    <div
-                      className={styles.reachYourAudience}
-                    >{`We developed a cohesive mobile app for a cross border payment solution `}</div>
-                  </div>
-                  <div className={styles.image1}>
-                    <div className={styles.imageItem} />
-                    <div className={styles.iphone15ProBlackTitaniumM}>
-                      <img
-                        className={styles.shadowIcon1}
-                        alt=""
-                        src="shadowPhone.svg"
-                      />
-                      <img
-                        className={styles.mainIcon1}
-                        alt=""
-                        src="mainPhone.svg"
-                      />
-                      <img
-                        className={styles.iphone15ProBlackTitaniumM1}
-                        alt=""
-                        src="/iPhone 15 Pro Black Titanium Mockup Portrait label.svg"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className={styles.card4}>
-                  <div className={styles.image2}>
-                    <div className={styles.imageInner} />
-                    <div className={styles.ipadPro129InchSpaceGray}>
-                      <img
-                        className={styles.shadowIcon2}
-                        alt=""
-                        src="shadowTab.svg"
-                      />
-                      <img
-                        className={styles.mainIcon2}
-                        alt=""
-                        src="/mainTab.svg"
-                      />
-                      <img
-                        className={styles.ipadPro129InchSpaceGray1}
-                        alt=""
-                        src="/iPad Pro 12.9-inch Space Gray Mockup label.svg"
-                      />
-                    </div>
-                  </div>
-                  <div className={styles.content2}>
-                    <div className={styles.jemivyParent}>
-                      <div className={styles.faithSpecialist}>
-                        Auburn Apartment Guide
-                      </div>
-                      <div className={styles.chip}>
-                        <div className={styles.webApp}>Web App</div>
-                      </div>
-                    </div>
-                    <div className={styles.reachYourAudience}>
-                      We redesigned Auburn Apartment Guide website and web app
-                      with significant UX enhancement with resulted in 40%
-                      increase in user engagement and onboarding.
-                    </div>
-                  </div>
-                </div>
+          }
+        ></motion.div>
+      </Element>
+
+      <div className={styles.frameDiv}>
+        <div className={styles.caseStudiesParent}>
+          <div className={styles.ourServices1}>CASE STUDIES</div>
+          <div className={styles.comprehensiveSolutionsTailor}>
+            Explore What We have Done.
+          </div>
+        </div>
+        <div className={styles.content1}>
+          <div className={styles.card4}>
+            <div className={styles.image}>
+              <div className={styles.imageChild} />
+              <div className={styles.macbookProTiltedScreenMock}>
+                <img className={styles.shadowIcon} alt="" src="/shadow.svg" />
+                <img className={styles.mainIcon} alt="" src="/main.svg" />
+                <img
+                  className={styles.macbookProTiltedScreenMock1}
+                  alt=""
+                  src="/MacBooklabel.svg"
+                />
               </div>
             </div>
-          </motion.div>
-        </Element>
+            <div className={styles.content2}>
+              <div className={styles.jemivyParent}>
+                <div className={styles.faithSpecialist}>Faith Specialist</div>
+                <div className={styles.chip}>
+                  <div className={styles.webApp}>Web App</div>
+                </div>
+              </div>
+              <div className={styles.reachYourAudience}>
+                We developed a web app and re-designed Faith Specialist website
+                to help streamline operations and stay up to date with patients
+                data.
+              </div>
+            </div>
+          </div>
+          <div className={styles.card4}>
+            <div className={styles.content2}>
+              <div className={styles.jemivyParent}>
+                <div className={styles.faithSpecialist}>Xwift</div>
+                <div className={styles.chip}>
+                  <div className={styles.webApp}>Mobile App</div>
+                </div>
+              </div>
+              <div
+                className={styles.reachYourAudience}
+              >{`We developed a cohesive mobile app for a cross border payment solution `}</div>
+            </div>
+            <div className={styles.image1}>
+              <div className={styles.imageItem} />
+              <div className={styles.iphone15ProBlackTitaniumM}>
+                <img
+                  className={styles.shadowIcon1}
+                  alt=""
+                  src="shadowPhone.svg"
+                />
+                <img className={styles.mainIcon1} alt="" src="mainPhone.svg" />
+                <img
+                  className={styles.iphone15ProBlackTitaniumM1}
+                  alt=""
+                  src="/iPhone 15 Pro Black Titanium Mockup Portrait label.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <div className={styles.card4}>
+            <div className={styles.image2}>
+              <div className={styles.imageInner} />
+              <div className={styles.ipadPro129InchSpaceGray}>
+                <img
+                  className={styles.shadowIcon2}
+                  alt=""
+                  src="shadowTab.svg"
+                />
+                <img className={styles.mainIcon2} alt="" src="/mainTab.svg" />
+                <img
+                  className={styles.ipadPro129InchSpaceGray1}
+                  alt=""
+                  src="/iPad Pro 12.9-inch Space Gray Mockup label.svg"
+                />
+              </div>
+            </div>
+            <div className={styles.content2}>
+              <div className={styles.jemivyParent}>
+                <div className={styles.faithSpecialist}>
+                  Auburn Apartment Guide
+                </div>
+                <div className={styles.chip}>
+                  <div className={styles.webApp}>Web App</div>
+                </div>
+              </div>
+              <div className={styles.reachYourAudience}>
+                We redesigned Auburn Apartment Guide website and web app with
+                significant UX enhancement with resulted in 40% increase in user
+                engagement and onboarding.
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className={styles.frameContainer}>

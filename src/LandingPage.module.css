@@ -285,7 +285,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 30px 100px 30px 100px;
+    padding: 90px 100px 30px 100px;
     position: relative;
     gap: 64px;
     z-index: 1;
@@ -388,7 +388,7 @@
 .imageItem {
     position: absolute;
     top: 58px;
-    left: calc(50% - 120px);
+    left: calc(50% - 160px);
     border-radius: 50%;
     background-color: #e4f222;
     width: 240px;
@@ -523,7 +523,7 @@
     padding: 24px;
     box-sizing: border-box;
     /* background-image: url('Card.svg'); */
-    background-image: var(--card-background);
+    /* background-image: var(--card-background); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
