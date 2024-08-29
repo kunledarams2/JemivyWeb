@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="PenNib" clip-path="url(#clip0_25_234)">
+<path id="Vector" d="M15.5 19C16.8807 19 18 17.8807 18 16.5C18 15.1193 16.8807 14 15.5 14C14.1193 14 13 15.1193 13 16.5C13 17.8807 14.1193 19 15.5 19Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M5.00122 27L13.7325 18.2675" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M5 27L22.4312 24.095C22.6042 24.0661 22.7665 23.9922 22.9019 23.8807C23.0372 23.7693 23.1409 23.6242 23.2025 23.46L26 16L16 6L8.54 8.7975C8.37583 8.8591 8.23074 8.96278 8.11929 9.09815C8.00784 9.23351 7.93394 9.39581 7.905 9.56875L5 27Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M26 16L29.7075 12.2925C29.8949 12.105 30.0002 11.8507 30.0002 11.5856C30.0002 11.3205 29.8949 11.0662 29.7075 10.8787L21.125 2.29248C20.9375 2.10508 20.6832 1.99982 20.4181 1.99982C20.153 1.99982 19.8988 2.10508 19.7113 2.29248L16 5.99998" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_25_234">
+<rect width="32" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="33" height="32" viewBox="0 0 33 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Desktop" clip-path="url(#clip0_25_166)">
+<path id="Vector" d="M6.5 24L26.5 24C27.6046 24 28.5 23.1046 28.5 22L28.5 8C28.5 6.89543 27.6046 6 26.5 6L6.5 6C5.39543 6 4.5 6.89543 4.5 8L4.5 22C4.5 23.1046 5.39543 24 6.5 24Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M20.5 28H12.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M4.5 19H28.5" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M16.5 24V28" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_25_166">
+<rect width="32" height="32" fill="white" transform="translate(0.5)"/>
+</clipPath>
+</defs>
+</svg>
