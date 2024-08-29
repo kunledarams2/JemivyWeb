@@ -3,7 +3,7 @@ import styles from "./LandingPage.module.css";
 import FAQ from "./components/FAQ";
 import IndustryCard from "./components/IndustryCard";
 import { motion } from "framer-motion";
-import { Link, animateScroll as scroll, scroller } from "react-scroll";
+import { Link } from "react-scroll";
 import { Element } from "react-scroll";
 
 const LandingPage: FunctionComponent = () => {

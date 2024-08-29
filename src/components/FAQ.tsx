@@ -11,7 +11,6 @@ export type FAQType = {
 };
 
 const FAQ: FunctionComponent<FAQType> = ({
-  styleType,
   question,
   // icons,
   answer,
