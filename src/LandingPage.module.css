@@ -285,7 +285,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 30px 100px;
+    padding: 30px 100px 30px 100px;
     position: relative;
     gap: 64px;
     z-index: 1;

@@ -359,15 +359,15 @@ const LandingPage: FunctionComponent = () => {
         </div>
         <div className={styles.contentParent}>
           <div className={styles.content5}>
-            <IndustryCard imageUrl="image2.svg" industry="Fintech" />
-            <IndustryCard imageUrl="image3.svg" industry="Health Tech" />
-            <IndustryCard imageUrl="image4.svg" industry="Ecommerce" />
+            <IndustryCard imageUrl="image2.png" industry="Fintech" />
+            <IndustryCard imageUrl="image3.png" industry="Health Tech" />
+            <IndustryCard imageUrl="image4.png" industry="Ecommerce" />
           </div>
 
           <div className={styles.content5}>
-            <IndustryCard imageUrl="image5.svg" industry="Edtech" />
-            <IndustryCard imageUrl="image6.svg" industry="AI" />
-            <IndustryCard imageUrl="image7.svg" industry="Real Estate" />
+            <IndustryCard imageUrl="image5.png" industry="Edtech" />
+            <IndustryCard imageUrl="image6.png" industry="AI" />
+            <IndustryCard imageUrl="image7.png" industry="Real Estate" />
 
             {/* <img className={styles.cardIcon} alt="" src="/indictor2.svg" /> */}
           </div>
