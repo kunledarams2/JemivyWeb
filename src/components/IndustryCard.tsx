@@ -25,11 +25,6 @@ const IndustryCard: FunctionComponent<IndustryCardType> = ({
       style={style}
       //   style={{ "--card-background": `url(${imageUrl})` } as React.CSSProperties}
     >
-      <img
-        alt=""
-        src={imageUrl}
-        className={styles.macbookProTiltedScreenMock1}
-      />
       <div className={styles.fintech}>{industry}</div>
     </div>
   );

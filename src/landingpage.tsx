@@ -11,7 +11,6 @@ const LandingPage: FunctionComponent = () => {
     <div className={styles.landingPage}>
       <div className={styles.frameParent}>
         <div className={styles.jemivyParent}>
-          {/* <img alt="" src="/headerbg.svg" /> */}
           <div className={styles.jemivy}>JemIvy</div>
           <div className={styles.ourServicesParent}>
             <div className={styles.ourServices}>
