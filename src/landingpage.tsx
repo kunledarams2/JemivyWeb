@@ -5,6 +5,7 @@ import IndustryCard from "./components/IndustryCard";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { Element } from "react-scroll";
+import Testimonial from "./components/Testmonies";
 
 const LandingPage: FunctionComponent = () => {
   return (
@@ -427,6 +428,7 @@ const LandingPage: FunctionComponent = () => {
           </div>
         </div>
       </div>
+      <Testimonial />
 
       <Element name="FAQs">
         <motion.div
