@@ -749,6 +749,17 @@ const LandingPage: FunctionComponent = () => {
                   </motion.a>
                 </Link>
               </div>
+
+              <div className={styles.contact}>
+                <Link to="ContactUs" smooth={true} duration={500}>
+                  <motion.a
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                  >
+                    Privacy Policy
+                  </motion.a>
+                </Link>
+              </div>
             </div>
           </div>
           <div className={styles.frameChild} />
